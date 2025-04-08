@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Hábitos Diarios</string>
+    <string name="insira_habito">Ingresa un hábito</string>
+    <string name="salvar">Guardar</string>
+    <string name="nome_do_habito">Nombre del hábito</string>
+    <string name="diario">Diario</string>
+    <string name="semanal">Semanal</string>
+    <string name="mensal">Mensual</string>
+    <string name="categoria">Categoría</string>
+    <string name="exercicio">Ejercicio</string>
+    <string name="leitura">Lectura</string>
+    <string name="sono">Sueño</string>
+    <string name="outros">Otros</string>
+
+
+    <string name="manha">Mañana</string>
+    <string name="tarde">Tarde</string>
+    <string name="noite">Noche</string>
+
+    <string name="preencha_campos">¡Rellene todos los campos!</string>
+    <string name="tarefa_excluida">¡Hábito eliminado!</string>
+
+    <string name="idioma_info">El idioma de la aplicación cambiará automáticamente según el idioma del sistema de su dispositivo Android.</string>
+
+    <string-array name="categorias_array">
+        <item>Salud</item>
+        <item>Estudio</item>
+        <item>Trabajo</item>
+        <item>Ocio</item>
+        <item>Otros</item>
+    </string-array>
+
+    <string-array name="frequencias_array">
+        <item>Diario</item>
+        <item>Semanal</item>
+        <item>Mensual</item>
+    </string-array>
+
+</resources>
