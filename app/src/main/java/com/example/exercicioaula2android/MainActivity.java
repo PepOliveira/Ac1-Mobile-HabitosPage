@@ -34,14 +34,14 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        edtHabito = findViewById(R.id.editTextNome); // corrigido
+        edtHabito = findViewById(R.id.editTextNome);
         spinnerCategoria = findViewById(R.id.spinnerCategoria);
         radioGroupFrequencia = findViewById(R.id.radioGroupFrequencia);
         radioDiario = findViewById(R.id.radioDiario);
         radioSemanal = findViewById(R.id.radioSemanal);
-        radioMensal = findViewById(R.id.radioMensal); // adicionado
-        btnSalvar = findViewById(R.id.btnSalvar); // certifique-se que tenha no XML
-        listaHabitos = findViewById(R.id.listViewHabitos); // corrigido
+        radioMensal = findViewById(R.id.radioMensal);
+        btnSalvar = findViewById(R.id.btnSalvar);
+        listaHabitos = findViewById(R.id.listViewHabitos);
 
         dbHelper = new BancoHelper(this);
         resetarFeitosSeNovoDia();
@@ -152,7 +152,7 @@ public class MainActivity extends AppCompatActivity {
 
                 int feito = mapFeitoHoje.containsKey(position) ? mapFeitoHoje.get(position) : 0;
                 if (feito == 1) {
-                    view.setBackgroundColor(getResources().getColor(R.color.feito)); // Precisa estar definido em colors.xml
+                    view.setBackgroundColor(getResources().getColor(R.color.feito));
                 } else {
                     view.setBackgroundColor(Color.TRANSPARENT);
                 }
